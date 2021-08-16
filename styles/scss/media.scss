@@ -1,0 +1,202 @@
+@media screen and (max-width: 900px){
+    .mainSlider{
+        &__item{
+            height: auto;
+            margin: 0px 30px;
+            img{
+                height: unset;
+                // width: 100%;
+            }
+        }
+
+        .slick-track{
+            display: flex;
+            align-items: center;
+        }
+
+        .arrow{
+            &__prev{
+                margin-left: 0px;
+            }
+        
+            &__next{
+                margin-right: 0px;
+            }
+        }
+    }
+
+    .header{
+        &__link{
+            font-size: 18px;
+            margin-right: 20px;
+        }
+
+        &__language{
+            font-size: 18px;
+        }
+
+        &__phone{
+            margin-right: 20px;
+        }
+    }
+
+    .phone{
+        a{
+            font-size: 18px;
+        }
+        img{
+            width: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .title{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .subtitle{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .header{
+        &__logo{
+            max-width: 150px;
+        }
+
+        &__wrap{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav{
+            width: 100%;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        &__link{
+            font-size: 22px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
+        &__language{
+            font-size: 22px;
+        }
+    }
+
+    .arrow{
+        width: 60px;
+        img{
+            width: 100%;
+        }
+    }
+
+    .phone{
+        a{
+            font-size: 22px;
+        }
+
+        img{
+            width: 30px;
+        }
+    }
+
+    .aboutBlock{
+        &__slide{
+            width: 250px;
+            span{
+                font-size: 14px;
+            }
+        }
+
+        &__text{
+            padding-bottom: 0;
+        }
+    }
+
+    .mainSlider{
+        &__wrap{
+            padding-bottom: 30px;
+        }
+    }
+
+    .button{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .contact{
+        &__form{
+            input{
+                font-size: 18px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+
+        &__button{
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .mainSlider{
+        &__item{
+            height: auto;
+            img{
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+
+    .title{
+        font-size: 26px;
+    }
+
+    .subtitle{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .mainSlider{
+        &__arrows{
+            width: 150px;
+        }
+    }
+    
+    .aboutBlock{
+        
+        &__wrap{
+            padding-bottom: 50px;
+        }
+
+        &__slide{
+            margin: unset;
+        }
+    }
+
+    .footer{
+        &__wrap{
+            flex-direction: column;
+        }
+
+        &__logo{
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+
+        &__col{
+            max-width: 100%;
+        }
+    }
+}
