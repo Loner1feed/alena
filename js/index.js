@@ -19,14 +19,13 @@ $('.mainSlider__wrap').slick({
 })
 
 
-$('.aboutBlock__slider').slick({
+$('.fullSlider').slick({
     slidesToShow: 1,
     centerMode: true,
     variableWidth: true,
     arrows: false,
     autoplay: true,
     speed: 500,
-    
 })
 
 $('.language__heading').click(() => {
